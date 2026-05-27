@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<title>Fabricio Ribeiro — Customer Success & AI</title>
+<meta name="description" content="Portfolio de Fabricio Ribeiro — Customer Success Specialist com 5+ anos de experiência em B2B/B2G Enterprise, IA aplicada e Data Science."/>
+<meta property="og:title" content="Fabricio Ribeiro — Customer Success & AI"/>
+<meta property="og:description" content="5+ anos em CS/CX, Suporte N2, IA Aplicada e Ciência de Dados. B2B & B2G Enterprise."/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://i.imgur.com/qSMG23k.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Fabricio Ribeiro — CS & AI"/>
+<meta name="twitter:description" content="Portfolio interativo — Customer Success, IA Aplicada e Data Science"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' font-family='serif' fill='%23f4f2ee'%3EF%3C/text%3E%3C/svg%3E"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- ── PRELOADER ──────────────────────────────────────── -->
+<div id="preloader">
+  <div class="pre-content">
+    <div class="pre-logo">FR</div>
+    <div class="pre-bar"><div class="pre-bar-fill" id="pre-bar-fill"></div></div>
+  </div>
+</div>
+
+<!-- ── SCROLL PROGRESS ───────────────────────────────── -->
+<div class="scroll-progress" id="scroll-progress"></div>
+
+<div class="grain"></div>
+<canvas id="cv"></canvas>
+<div class="c-dot" id="dot"></div>
+<div class="c-ring" id="ring"></div>
+
+<!-- ── NAV ────────────────────────────────────────────── -->
+<nav id="nav">
+  <div class="nav-logo">Fabricio Ribeiro</div>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#experience">Exp.</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#reputation">Reputação</a></li>
+      <li><a href="#cases">Cases</a></li>
+      <li><a href="#playground">Playground</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+    <div class="nav-avail">Disponível</div>
+  </div>
+</nav>
+
+<!-- ── HERO ───────────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-spotlight" id="hero-spotlight"></div>
+  <div class="hero-left">
+    <div class="hero-status">Customer Success & AI Specialist</div>
+    <h1 class="hero-name glitch-target">Fabricio<br><em>Ribeiro</em></h1>
+    <p class="hero-sub">5+ anos em CS/CX · B2B & B2G Enterprise<br>Suporte N2 · IA Aplicada · Ciência de Dados</p>
+    <div class="hero-cta-row">
+      <a href="#contact" class="btn btn-white btn-magnetic">Entrar em contato</a>
+      <a href="#playground" class="btn btn-ghost btn-magnetic">Testar playground</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="photo-wrap">
+      <img src="https://i.imgur.com/qSMG23k.png" alt="Fabricio Ribeiro"/>
+      <div class="photo-frame"></div>
+      <div class="photo-label">FR // Pau dos Ferros — BR</div>
+    </div>
+  </div>
+  <div class="hero-bar">
+    <div class="hero-bar-item">
+      <div class="hbi-num" data-count="5" data-suffix="+"><em>0</em></div>
+      <div class="hbi-label">Anos em CS/CX/Support</div>
+    </div>
+    <div class="hero-bar-item">
+      <div class="hbi-num" data-text="N2"><em>N2</em></div>
+      <div class="hbi-label">Suporte Avançado</div>
+    </div>
+    <div class="hero-bar-item">
+      <div class="hbi-num" data-text="B2B & B2G"><em>B2B & B2G</em></div>
+      <div class="hbi-label">Enterprise</div>
+    </div>
+    <div class="hero-bar-item">
+      <div class="hbi-num" data-text="AI"><em>AI</em></div>
+      <div class="hbi-label">Ops & Automação</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CODE MARQUEE ────────────────────────────────────── -->
+<div class="code-strip">
+  <div class="code-strip-inner">
+    <span><span class="kw">def</span> <span class="val">predict_churn</span>(customer_id): <span class="kw">return</span> model.predict(features)</span>
+    <span>&#x27E1;</span>
+    <span><span class="kw">SELECT</span> health_score, nps, ltv <span class="kw">FROM</span> customers <span class="kw">WHERE</span> risk_flag = <span class="val">True</span></span>
+    <span>&#x27E1;</span>
+    <span>df[<span class="val">'churn_risk'</span>] = pipeline.fit_transform(df[[<span class="val">'usage'</span>,<span class="val">'tickets'</span>,<span class="val">'nps'</span>]])</span>
+    <span>&#x27E1;</span>
+    <span>SLA_compliance = <span class="val">99.8</span>% &nbsp;|&nbsp; MTTR = <span class="val">12</span>min &nbsp;|&nbsp; CSAT = <span class="val">4.9</span>/5</span>
+    <span>&#x27E1;</span>
+    <span><span class="kw">import</span> openai &nbsp;|&nbsp; llm.route(ticket, priority=<span class="val">"critical"</span>, sla=<span class="val">True</span>)</span>
+    <span>&#x27E1;</span>
+    <span><span class="kw">def</span> <span class="val">predict_churn</span>(customer_id): <span class="kw">return</span> model.predict(features)</span>
+    <span>&#x27E1;</span>
+    <span><span class="kw">SELECT</span> health_score, nps, ltv <span class="kw">FROM</span> customers <span class="kw">WHERE</span> risk_flag = <span class="val">True</span></span>
+    <span>&#x27E1;</span>
+    <span>df[<span class="val">'churn_risk'</span>] = pipeline.fit_transform(df[[<span class="val">'usage'</span>,<span class="val">'tickets'</span>,<span class="val">'nps'</span>]])</span>
+    <span>&#x27E1;</span>
+    <span>SLA_compliance = <span class="val">99.8</span>% &nbsp;|&nbsp; MTTR = <span class="val">12</span>min &nbsp;|&nbsp; CSAT = <span class="val">4.9</span>/5</span>
+    <span>&#x27E1;</span>
+    <span><span class="kw">import</span> openai &nbsp;|&nbsp; llm.route(ticket, priority=<span class="val">"critical"</span>, sla=<span class="val">True</span>)</span>
+    <span>&#x27E1;</span>
+  </div>
+</div>
+
+<!-- ── ABOUT ───────────────────────────────────────────── -->
+<section id="about">
+  <div class="inner">
+    <div class="sec-label">Sobre <span>// 01</span></div>
+    <div class="about-layout">
+      <div>
+        <h2 class="about-heading mask-reveal">Estratégia,<br>dados e<br><em>resultado real.</em></h2>
+        <div class="about-quote">"A experiência sem teoria é cega, mas a teoria sem experiência é vazia." — Immanuel Kant</div>
+      </div>
+      <div>
+        <div class="about-body">
+          <p>Especialista em <strong>Customer Success e CX</strong> com mais de 5 anos de trajetória consolidada na gestão e retenção de contas em ecossistemas de alta complexidade — B2B SaaS, ISP e B2G. Meu diferencial competitivo está em unir a sensibilidade da jornada do cliente ao rigor da <strong>Ciência de Dados e Inteligência Artificial</strong>.</p>
+          <p>Atuo no gerenciamento de contas e como elo cross-functional entre clientes Enterprise e times de Engenharia, NOC e Infraestrutura — resolvendo gargalos de Suporte N2 técnico, traduzindo desafios complexos em soluções de negócio, mantendo a saúde da carteira e garantindo a <strong>conformidade rigorosa de SLAs</strong> em ambientes críticos.</p>
+          <p>Hoje, aplico na prática modelos de <strong>IA para escalar a personalização</strong> do atendimento, otimizar a eficiência operacional do suporte e gerar valor contínuo em toda a jornada do cliente.</p>
+        </div>
+        <div class="pillars" style="margin-top:2rem;">
+          <div class="pillar glow-card">
+            <div class="pillar-top"><span class="pillar-num">01</span></div>
+            <div class="pillar-title">Gestão de Carteiras & SLA</div>
+            <div class="pillar-desc">Blindagem de contas B2B Enterprise e B2G. Atuação preditiva com Health Score, Churn, NPS e LTV.</div>
+          </div>
+          <div class="pillar glow-card">
+            <div class="pillar-top"><span class="pillar-num">02</span></div>
+            <div class="pillar-title">Otimização Data-Driven com IA</div>
+            <div class="pillar-desc">Integração de IA e automações no workflow de CS. Dashboards que reduzem esforço e geram eficiência real.</div>
+          </div>
+          <div class="pillar glow-card">
+            <div class="pillar-top"><span class="pillar-num">03</span></div>
+            <div class="pillar-title">Interface Técnica & Stakeholders</div>
+            <div class="pillar-desc">Comunicação executiva fluida. Ponte estratégica entre clientes exigentes e equipes de engenharia.</div>
+          </div>
+          <div class="pillar glow-card">
+            <div class="pillar-top"><span class="pillar-num">04</span></div>
+            <div class="pillar-title">Suporte N2 & SLA Crítico</div>
+            <div class="pillar-desc">Alta capacidade em cenários de pressão, multiatendimento e conformidade em ambientes governamentais.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TERMINAL ───────────────────────────────────────── -->
+<section id="terminal-section">
+  <div class="inner">
+    <div class="sec-label">Terminal <span>// interactive</span></div>
+    <div class="term-window" id="term-window">
+      <div class="term-bar">
+        <span class="t-dot r"></span><span class="t-dot y"></span><span class="t-dot g"></span>
+        <span class="term-bar-title">fabricio@portfolio — bash</span>
+        <button class="term-min-btn" id="term-quit-btn" title="Fechar terminal">&#x2715;</button>
+      </div>
+      <div class="term-body" id="term-body">
+        <div class="term-welcome">
+          <div>Bem-vindo ao terminal interativo.</div>
+          <div>Digite <span class="term-hl">help</span> para ver os comandos disponíveis.</div>
+        </div>
+        <div class="term-output" id="term-output"></div>
+        <div class="term-input-line" id="term-input-line">
+          <span class="term-prompt-char">&#x2192; fabricio ~</span>
+          <input type="text" class="term-input" id="term-input" spellcheck="false" autocomplete="off"/>
+        </div>
+      </div>
+      <!-- game canvas overlay -->
+      <canvas id="term-game-canvas" class="term-game-canvas"></canvas>
+      <div id="term-game-overlay" class="term-game-overlay"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ──────────────────────────────────────── -->
+<section id="experience">
+  <div class="inner">
+    <div class="sec-label">Experiência <span>// 02</span></div>
+    <div class="exp-grid">
+
+      <div class="exp-item glow-card">
+        <div class="exp-meta">
+          <div>
+            <div class="exp-period">Jun 2024<br>Presente</div>
+            <span class="exp-current">&#x25CF; Atual</span>
+          </div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-company">Brisanet Telecomunicações</div>
+          <div class="exp-role">Customer Success & Suporte N2 Pleno — B2B / SaaS / B2G</div>
+          <div class="exp-tags">
+            <span class="exp-tag">Enterprise</span><span class="exp-tag">B2B & B2G</span><span class="exp-tag">RCA</span>
+            <span class="exp-tag">CRM Manager</span><span class="exp-tag">LTV</span><span class="exp-tag">Churn Rate</span>
+            <span class="exp-tag">NPS</span><span class="exp-tag">CSAT</span><span class="exp-tag">Health Score</span>
+            <span class="exp-tag">SLA Critical</span><span class="exp-tag">AI Specialist</span>
+          </div>
+          <ul class="exp-list">
+            <li>Atuação consultiva em carteiras Enterprise e B2G, focando na retenção, engajamento e mitigação de Churn através de check-ins estratégicos e análise de Health Score.</li>
+            <li>Resolução de incidentes complexos (N2) para grandes ISPs e Governo, garantindo conformidade em SLAs críticos com MTTR abaixo de 08 horas.</li>
+            <li>Análise de Causa Raiz (RCA) de incidentes de alto impacto com soluções corretivas e preventivas.</li>
+            <li>Interface estratégica entre clientes e equipes de engenharia/NOC.</li>
+            <li>Tradução de termos técnicos complexos para diferentes stakeholders.</li>
+            <li>Gestão do ciclo de vida de tickets e projetos via Jira e Zendesk.</li>
+            <li>Troubleshooting em BGP, roteamento Cisco/MikroTik e links dedicados corporativos.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item glow-card">
+        <div class="exp-meta"><div><div class="exp-period">Fev 2023<br>Jun 2024</div></div></div>
+        <div class="exp-body">
+          <div class="exp-company">Brisanet Telecomunicações</div>
+          <div class="exp-role">Customer Success & Suporte N1 Jr — B2B / SaaS / CX</div>
+          <div class="exp-tags">
+            <span class="exp-tag">SMB</span><span class="exp-tag">CX</span><span class="exp-tag">Time-to-Resolution</span>
+            <span class="exp-tag">Suporte Remoto</span><span class="exp-tag">Enterprise</span><span class="exp-tag">RCA</span>
+            <span class="exp-tag">CRM Manager</span><span class="exp-tag">NPS</span><span class="exp-tag">CSAT</span><span class="exp-tag">SLA Critical</span>
+          </div>
+          <ul class="exp-list">
+            <li>Atendimento especializado a pequenas e médias empresas.</li>
+            <li>Diagnóstico ágil e resolução de incidentes de primeira linha.</li>
+            <li>Triagem e priorização estratégica de incidentes.</li>
+            <li>Orientação técnica didática para usuários.</li>
+            <li>Atuação focada na jornada do cliente.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item glow-card">
+        <div class="exp-meta"><div><div class="exp-period">Out 2021<br>Fev 2023</div></div></div>
+        <div class="exp-body">
+          <div class="exp-company">Brisanet Telecomunicações</div>
+          <div class="exp-role">Operador de Suporte Técnico — B2C / CX</div>
+          <div class="exp-tags"><span class="exp-tag">B2C</span><span class="exp-tag">First Line</span><span class="exp-tag">Redes</span></div>
+          <ul class="exp-list">
+            <li>Atendimento técnico com diagnóstico remoto e restauração de serviço.</li>
+            <li>Abertura, acompanhamento e encerramento de chamados.</li>
+            <li>Atendimento em primeira linha para falhas de modem, roteador e rede.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item glow-card">
+        <div class="exp-meta"><div><div class="exp-period">Out 2020<br>Out 2021</div></div></div>
+        <div class="exp-body">
+          <div class="exp-company">Infraline Telecomunicações</div>
+          <div class="exp-role">Analista de Infraestrutura e Experiência do Cliente</div>
+          <div class="exp-tags"><span class="exp-tag">Cabeamento</span><span class="exp-tag">Fusão Óptica</span><span class="exp-tag">Data Center</span></div>
+          <ul class="exp-list">
+            <li>Atendimento direto a clientes ISPs e consumidor final.</li>
+            <li>Gestão de expectativas e comunicação técnica simplificada.</li>
+            <li>Monitoramento e manutenção preventiva em Data Centers.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CODE PANEL ──────────────────────────────────────── -->
+<section id="code-panel">
+  <div class="code-layout">
+    <div class="code-left">
+      <div class="sec-label" style="margin-bottom:1.5rem;">IA Aplicada <span>// Applied</span></div>
+      <div class="code-heading">Onde dados<br>encontram decisão.</div>
+      <p style="font-size:.82rem;color:var(--mid);line-height:1.8;margin-top:1rem;max-width:380px;">Automação de workflows de CS, modelos preditivos de churn e LLMs integrados a operações de suporte — essa é a fronteira onde trabalho.</p>
+    </div>
+    <div class="code-right" style="display:flex;flex-direction:column;gap:1.2rem;">
+      <div class="code-block">
+<span class="cb-cmt"># churn_model.py — predição proativa de cancelamento</span>
+<br><span class="cb-kw">import</span> pandas <span class="cb-kw">as</span> pd
+<br><span class="cb-kw">from</span> sklearn.ensemble <span class="cb-kw">import</span> <span class="cb-fn">GradientBoostingClassifier</span>
+<br>
+<br><span class="cb-kw">def</span> <span class="cb-fn">build_health_score</span>(df):
+<br>&nbsp;&nbsp;&nbsp;&nbsp;features = [<span class="cb-str">'ticket_volume'</span>, <span class="cb-str">'nps'</span>, <span class="cb-str">'usage_drop'</span>, <span class="cb-str">'sla_breach'</span>]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;df[<span class="cb-str">'risk'</span>] = model.predict_proba(df[features])[:, <span class="cb-num">1</span>]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="cb-kw">return</span> df.sort_values(<span class="cb-str">'risk'</span>, ascending=<span class="cb-key">False</span>)
+      </div>
+      <div class="terminal-fake">
+        <div class="terminal-bar-fake">
+          <span class="t-dot r"></span><span class="t-dot y"></span><span class="t-dot g"></span>
+          <span class="terminal-title">cs_ops — bash</span>
+        </div>
+        <div class="terminal-body-fake">
+          <div class="t-line"><span class="t-prompt">&#x2192;</span><span class="t-cmd">python predict.py --segment enterprise</span></div>
+          <div class="t-line t-out">Loaded 248 accounts · Running inference...</div>
+          <div class="t-line t-out">&#x26A0;  12 accounts flagged HIGH RISK (churn &gt;78%)</div>
+          <div class="t-line t-out">&#x2714;  Slack alerts dispatched · SLA owner notified</div>
+          <div class="t-line t-out">Health report saved &#x2192; /reports/2026-05.pdf</div>
+          <div class="t-line"><span class="t-prompt">&#x2192;</span><span class="t-cmd"><span class="t-cursor"></span></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ──────────────────────────────────────────── -->
+<section id="skills">
+  <div class="inner">
+    <div class="sec-label">Competências <span>// 03</span></div>
+    <div class="skills-cols">
+      <div class="skill-col">
+        <div class="skill-col-icon">&#x25CE;</div>
+        <div class="skill-col-title">Customer Success & CX</div>
+        <div class="skill-rows">
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">Churn Mitigation</span><span class="skill-row-pct">95%</span></div><div class="bar-track"><div class="bar-fill" data-w="95"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">Health Score & NPS</span><span class="skill-row-pct">90%</span></div><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">SLA Governance</span><span class="skill-row-pct">96%</span></div><div class="bar-track"><div class="bar-fill" data-w="96"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">B2B/B2G High-Touch</span><span class="skill-row-pct">93%</span></div><div class="bar-track"><div class="bar-fill" data-w="93"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">CRM & Lifecycle Mgmt</span><span class="skill-row-pct">88%</span></div><div class="bar-track"><div class="bar-fill" data-w="88"></div></div></div>
+        </div>
+      </div>
+      <div class="skill-col">
+        <div class="skill-col-icon">&#x25C8;</div>
+        <div class="skill-col-title">IA & Dados</div>
+        <div class="skill-rows">
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">AI Prompting (LLMs)</span><span class="skill-row-pct">91%</span></div><div class="bar-track"><div class="bar-fill" data-w="91"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">Python & SQL</span><span class="skill-row-pct">82%</span></div><div class="bar-track"><div class="bar-fill" data-w="82"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">Data-Driven Decisions</span><span class="skill-row-pct">89%</span></div><div class="bar-track"><div class="bar-fill" data-w="89"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">Dashboard & Analytics</span><span class="skill-row-pct">83%</span></div><div class="bar-track"><div class="bar-fill" data-w="83"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">Automação de Workflows</span><span class="skill-row-pct">80%</span></div><div class="bar-track"><div class="bar-fill" data-w="80"></div></div></div>
+        </div>
+      </div>
+      <div class="skill-col">
+        <div class="skill-col-icon">&#x25C7;</div>
+        <div class="skill-col-title">Suporte N2</div>
+        <div class="skill-rows">
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">SQL & Data Querying</span><span class="skill-row-pct">87%</span></div><div class="bar-track"><div class="bar-fill" data-w="87"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">Log Analysis & Observability</span><span class="skill-row-pct">82%</span></div><div class="bar-track"><div class="bar-fill" data-w="82"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">CRM Manager</span><span class="skill-row-pct">94%</span></div><div class="bar-track"><div class="bar-fill" data-w="94"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">Networks (TCP/IP, CDN, VPC)</span><span class="skill-row-pct">90%</span></div><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
+          <div class="skill-row"><div class="skill-row-head"><span class="skill-row-name">ITIL & Incident Mgmt</span><span class="skill-row-pct">88%</span></div><div class="bar-track"><div class="bar-fill" data-w="88"></div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="stack-wrap">
+      <div class="stack-label">// Stack completa</div>
+      <div class="stack-grid">
+        <div class="stack-item">Python</div><div class="stack-item">SQL</div><div class="stack-item">AI Prompting</div>
+        <div class="stack-item">LLMs</div><div class="stack-item">Churn Rate</div><div class="stack-item">Health Score</div>
+        <div class="stack-item">NPS</div><div class="stack-item">Jira</div><div class="stack-item">Networks</div>
+        <div class="stack-item">Infrastructure</div><div class="stack-item">Enterprise</div><div class="stack-item">CSAT</div>
+        <div class="stack-item">AI Specialist</div><div class="stack-item">SLA Critical</div><div class="stack-item">ITIL</div>
+        <div class="stack-item">CRM</div><div class="stack-item">CRM Manager</div><div class="stack-item">NPS / LTV</div>
+        <div class="stack-item">SaaS</div><div class="stack-item">RCA</div><div class="stack-item">B2B / B2G</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION ───────────────────────────────────────── -->
+<section id="education">
+  <div class="inner">
+    <div class="sec-label">Formação <span>// 04</span></div>
+    <div class="edu-layout">
+      <div><h2 class="edu-heading mask-reveal">Base sólida<br>para decisões<br><em>inteligentes.</em></h2></div>
+      <div>
+        <div class="edu-list">
+          <div class="edu-item">
+            <div class="edu-tag">MBA · Pós-Graduação</div>
+            <div class="edu-degree">Gestão Tecnológica — Big Data & Inteligência Artificial</div>
+            <div class="edu-school">Faculdade Maurício de Nassau</div>
+            <div class="edu-year">2025 — 2026 (cursando)</div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-tag">Graduação</div>
+            <div class="edu-degree">Data Science</div>
+            <div class="edu-school">Faculdade Maurício de Nassau</div>
+            <div class="edu-year">2023 — 2025 (concluído)</div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-tag">2ª Graduação</div>
+            <div class="edu-degree">Análise e Desenvolvimento de Sistemas</div>
+            <div class="edu-school">IFRN — Instituto Federal do RN</div>
+            <div class="edu-year">2023 — 2026 (cursando)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── REPUTACAO & IMPACTO ─────────────────────────────── -->
+<section id="reputation">
+  <div class="inner">
+    <div class="sec-label">Reputação & Impacto <span>// 05</span></div>
+    <div class="rep-layout">
+      <div>
+        <h2 class="rep-heading mask-reveal">O que dizem<br>quem trabalhou<br><em>comigo.</em></h2>
+        <p class="rep-desc">Perspectivas reais de profissionais que compartilharam trincheira — da operação técnica à liderança estratégica.</p>
+      </div>
+      <div class="rep-cards">
+        <div class="rep-card tilt-card">
+          <div class="rep-card-header">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQHHRdDx_khQCQ/profile-displayphoto-scale_100_100/B4EZwUSfp5I0Ac-/0/1769866919286?e=1781136000&v=beta&t=1VyZkDAYZEEA-XNhKqnp8-4guQKikjakiS2kAcRy2hg" alt="Maurício Ricardo" class="rep-avatar"/>
+            <div>
+              <div class="rep-name">Maurício Ricardo</div>
+              <div class="rep-role">Analista de Suporte · Gestão de Incidentes · NOC</div>
+              <div class="rep-perspective">Perspectiva de Negócio & Operação</div>
+            </div>
+          </div>
+          <blockquote class="rep-quote">"Fabrício é uma pessoa excepcional. Além de ser um líder nato, sempre dá o seu melhor em tudo o que faz. Tecnicamente muito competente, também se destaca pelo relacionamento extraordinário, tanto com a equipe interna quanto com os nossos clientes. Recomendo fortemente seu trabalho."</blockquote>
+        </div>
+        <div class="rep-card tilt-card">
+          <div class="rep-card-header">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQH6kD1dtrqBIw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1668184239268?e=1781136000&v=beta&t=QBBaBq4W7WKK1Rozuo0olQbxIMA1rn8y3QhVu7hOFDY" alt="Ruan Freire" class="rep-avatar"/>
+            <div>
+              <div class="rep-name">Ruan Freire</div>
+              <div class="rep-role">Analista de Tecnologia de Redes · Técnico em Redes · NOC</div>
+              <div class="rep-perspective">Perspectiva Técnica</div>
+            </div>
+          </div>
+          <blockquote class="rep-quote">"Tive o prazer de trabalhar na mesma equipe que o Fabrício e o recomendo sem hesitação. Ele une um sólido conhecimento em infraestrutura e dados com uma facilidade incrível de convivência. É uma pessoa colaborativa, sempre disposta a compartilhar conhecimento e ajudar os colegas, tornando o ambiente de trabalho muito mais produtivo e leve. Um profissional completo."</blockquote>
+        </div>
+        <div class="rep-card tilt-card">
+          <div class="rep-card-header">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFgZ2EiiqM_zQ/profile-displayphoto-crop_800_800/B4DZkqLExEIcAI-/0/1757349170647?e=1781136000&v=beta&t=xAn-5aeTMW2AyqvKC_EBVH3l3HZ8FFczcJnrUVqheJk" alt="Carlos Henrique" class="rep-avatar"/>
+            <div>
+              <div class="rep-name">Carlos Henrique</div>
+              <div class="rep-role">Supervisor · Gestão de Equipe</div>
+              <div class="rep-perspective">Perspectiva de Liderança</div>
+            </div>
+          </div>
+          <blockquote class="rep-quote">"[Depoimento será adicionado em breve.]"</blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CASES & PROJETOS ───────────────────────────────── -->
+<section id="cases">
+  <div class="inner">
+    <div class="sec-label">Cases & Projetos <span>// 06</span></div>
+    <h2 class="cases-heading mask-reveal">Projetos que<br><em>saem do papel.</em></h2>
+    <p class="cases-desc">Soluções reais construídas com estratégia, dados e tecnologia.</p>
+    <div class="cases-grid">
+
+      <div class="case-card glow-card">
+        <div class="case-img-wrap">
+          <img src="src/playground.png" alt="AI Dashboard Playground" class="case-img" onerror="this.style.display='none'"/>
+          <div class="case-img-fallback">&#x27E1;</div>
+        </div>
+        <div class="case-body">
+          <div class="case-tags"><span class="case-tag">IA</span><span class="case-tag">LLM</span><span class="case-tag">Dashboard</span></div>
+          <h3 class="case-title">AI Dashboard Playground</h3>
+          <p class="case-desc-text">[Descrição do projeto — edite aqui.]</p>
+          <div class="case-stack">DeepSeek API · JavaScript · Canvas · CSS Grid</div>
+        </div>
+      </div>
+
+      <div class="case-card glow-card">
+        <div class="case-img-wrap">
+          <img src="src/chatbot.png" alt="Chatbot de Atendimento" class="case-img" onerror="this.style.display='none'"/>
+          <div class="case-img-fallback">&#x2637;</div>
+        </div>
+        <div class="case-body">
+          <div class="case-tags"><span class="case-tag">N8N</span><span class="case-tag">LLM</span><span class="case-tag">CS</span></div>
+          <h3 class="case-title">Chatbot de Atendimento</h3>
+          <p class="case-desc-text">[Descrição do projeto — edite aqui.]</p>
+          <div class="case-stack">N8N · OpenRouter · Prompt Engineering · Supabase</div>
+        </div>
+      </div>
+
+      <div class="case-card glow-card">
+        <div class="case-img-wrap">
+          <img src="src/fr-controle.png" alt="FR Controle" class="case-img" onerror="this.style.display='none'"/>
+          <div class="case-img-fallback">&#x2318;</div>
+        </div>
+        <div class="case-body">
+          <div class="case-tags"><span class="case-tag">CRM</span><span class="case-tag">Gestão</span><span class="case-tag">Full-Stack</span></div>
+          <h3 class="case-title">FR Controle</h3>
+          <p class="case-desc-text">[Descrição do projeto — edite aqui.]</p>
+          <div class="case-stack">[Stack — edite aqui.]</div>
+        </div>
+      </div>
+
+      <div class="case-card glow-card">
+        <div class="case-img-wrap">
+          <img src="src/hik-inteligente.png" alt="HIK-Inteligente" class="case-img" onerror="this.style.display='none'"/>
+          <div class="case-img-fallback">&#x25CE;</div>
+        </div>
+        <div class="case-body">
+          <div class="case-tags"><span class="case-tag">Cameras</span><span class="case-tag">Monitoramento</span><span class="case-tag">IoT</span></div>
+          <h3 class="case-title">HIK-Inteligente</h3>
+          <p class="case-desc-text">[Descrição do projeto — edite aqui.]</p>
+          <div class="case-stack">[Stack — edite aqui.]</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── AI CODE MARQUEE ─────────────────────────────────── -->
+<div class="code-strip">
+  <div class="code-strip-inner">
+    <span><span class="kw">from</span> langchain <span class="kw">import</span> <span class="val">ChatOpenAI</span>, PromptTemplate</span>
+    <span>&#x27E1;</span>
+    <span>llm.<span class="val">generate</span>(prompt=<span class="val">"analyze churn"</span>, temp=<span class="val">0.3</span>)</span>
+    <span>&#x27E1;</span>
+    <span><span class="kw">import</span> anthropic; client.<span class="val">messages.create</span>(model=<span class="val">"claude-4"</span>)</span>
+    <span>&#x27E1;</span>
+    <span>embedding = openai.<span class="val">Embedding.create</span>(input=data, model=<span class="val">"text-embedding-3"</span>)</span>
+    <span>&#x27E1;</span>
+    <span>pipeline.fit(X_train) | <span class="val">predict</span>(X_test) | <span class="val">evaluate</span>(metrics=[<span class="val">"f1"</span>,<span class="val">"auc"</span>])</span>
+    <span>&#x27E1;</span>
+    <span>rag_chain = retriever | llm | <span class="val">StrOutputParser</span>() &nbsp;|&nbsp; <span class="val">accuracy: 94.2%</span></span>
+    <span>&#x27E1;</span>
+    <span><span class="kw">from</span> langchain <span class="kw">import</span> <span class="val">ChatOpenAI</span>, PromptTemplate</span>
+    <span>&#x27E1;</span>
+    <span>llm.<span class="val">generate</span>(prompt=<span class="val">"analyze churn"</span>, temp=<span class="val">0.3</span>)</span>
+    <span>&#x27E1;</span>
+    <span><span class="kw">import</span> anthropic; client.<span class="val">messages.create</span>(model=<span class="val">"claude-4"</span>)</span>
+    <span>&#x27E1;</span>
+    <span>embedding = openai.<span class="val">Embedding.create</span>(input=data, model=<span class="val">"text-embedding-3"</span>)</span>
+    <span>&#x27E1;</span>
+    <span>pipeline.fit(X_train) | <span class="val">predict</span>(X_test) | <span class="val">evaluate</span>(metrics=[<span class="val">"f1"</span>,<span class="val">"auc"</span>])</span>
+    <span>&#x27E1;</span>
+    <span>rag_chain = retriever | llm | <span class="val">StrOutputParser</span>() &nbsp;|&nbsp; <span class="val">accuracy: 94.2%</span></span>
+    <span>&#x27E1;</span>
+  </div>
+</div>
+
+<!-- ── PLAYGROUND ──────────────────────────────────────── -->
+<section id="playground">
+  <div class="inner">
+    <div class="sec-label">Playground <span>// 07</span></div>
+    <div class="pg-layout">
+
+      <!-- LEFT: intro + config -->
+      <div>
+        <h2 class="pg-heading">Dados<br>viram<br><em>dashboard.</em></h2>
+        <p class="pg-desc">Descreva qualquer conjunto de dados em linguagem natural e a IA constrói uma visualização estratégica em tempo real.</p>
+        <button class="pg-tutorial-btn" id="pg-tutorial-btn">Como funciona? (Tutorial)</button>
+
+        <div class="pg-config anim-border">
+          <div class="pg-config-title">Motor de IA</div>
+
+          <div class="pg-row">
+            <label class="pg-label">Modelo</label>
+            <select class="pg-select" id="pg-model">
+              <option value="deepseek-chat">deepseek-chat</option>
+              <option value="deepseek-reasoner">deepseek-reasoner</option>
+            </select>
+          </div>
+
+          <div class="pg-row">
+            <label class="pg-label">Temperatura — <span id="pg-temp-label">0.3</span></label>
+            <div class="pg-range-row">
+              <input type="range" class="pg-range" id="pg-temp" min="0" max="1" step="0.1" value="0.3"/>
+              <span class="pg-range-val" id="pg-temp-display">0.3</span>
+            </div>
+            <div class="pg-temp-hint">Baixo = preciso e consistente. Alto = criativo e variado.</div>
+          </div>
+
+          <div class="pg-linkedin-help">
+            Powered by DeepSeek AI · Limitado a 1 dashboard por minuto.
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: playground -->
+      <div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.6rem;">
+          <div class="pg-dash-title" style="font-family:var(--f-mono);font-size:.6rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;">
+            &#x25A3; &nbsp;Saída do Playground
+          </div>
+          <div style="display:flex;gap:.5rem;">
+            <button class="pg-clear-btn" id="pg-demo">Ver demo</button>
+            <button class="pg-clear-btn" id="pg-clear">Limpar</button>
+          </div>
+        </div>
+
+        <!-- examples -->
+        <div class="pg-examples" id="pg-examples">
+          <div class="pg-example-label">Testar com dados de exemplo:</div>
+          <div class="pg-example-btns">
+            <button class="pg-example-btn" data-example="portfolio">Carteira de Clientes</button>
+            <button class="pg-example-btn" data-example="sla">Análise de SLA</button>
+            <button class="pg-example-btn" data-example="equipe">Performance da Equipe</button>
+          </div>
+        </div>
+
+        <!-- chat log -->
+        <div class="pg-chat-area" id="pg-chat">
+          <div class="pg-empty" id="pg-empty">
+            <div class="pg-empty-icon">&#x27E1;</div>
+            <div>Descreva seus dados no campo abaixo<br>ou use um exemplo acima.</div>
+          </div>
+        </div>
+
+        <!-- dashboard render area -->
+        <div class="pg-dashboard" id="pg-dashboard" style="display:none;">
+          <div class="pg-dash-header">
+            <div class="pg-dash-title">Dashboard gerado</div>
+            <div style="display:flex;align-items:center;gap:.5rem;">
+              <span id="pg-dash-model" style="font-family:var(--f-mono);font-size:.56rem;color:var(--mid);letter-spacing:.08em;"></span>
+              <button class="pg-export-btn" id="pg-fullscreen" style="display:none;">Tela cheia</button>
+            </div>
+          </div>
+          <div class="pg-dash-content" id="pg-dash-content"></div>
+        </div>
+
+        <!-- csv import -->
+        <div class="csv-zone" id="csv-zone">
+          <div class="csv-zone-icon">&#x1F4C4;</div>
+          <div id="csv-zone-text" class="csv-zone-text">Arraste um CSV aqui ou clique para importar</div>
+          <input type="file" id="csv-file" accept=".csv"/>
+        </div>
+
+        <!-- input -->
+        <div class="pg-input-row">
+          <textarea class="pg-textarea" id="pg-input" placeholder="Ex: tenho 3 colaboradores: João, José e Elias. Todos entram as 07h..." rows="3"></textarea>
+          <button class="pg-send" id="pg-send">Gerar &#x2197;</button>
+        </div>
+
+        <!-- status -->
+        <div class="pg-status" id="pg-status"></div>
+
+        <!-- gallery -->
+        <div class="pg-gallery">
+          <div class="pg-gallery-label">Exemplos de dashboards gerados:</div>
+          <div class="pg-gallery-grid" id="pg-gallery-grid"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ─────────────────────────────────────────── -->
+<section id="contact">
+  <div class="inner">
+    <div class="sec-label">Contato <span>// 08</span></div>
+    <div class="contact-layout">
+      <div>
+        <h2 class="contact-big">Vamos<br><em>conversar.</em></h2>
+        <p class="contact-sub">Se você busca um profissional estratégico que une visão de negócio, relações humanas e o poder da tecnologia — estou disponível.</p>
+        <div class="contact-links">
+          <a href="mailto:fabricioribeiro1408@gmail.com" class="clink glow-card">
+            <div class="clink-ico">&#x2709;</div>
+            <span class="clink-text">fabricioribeiro1408@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/fabricioribeiro-7013363ab" target="_blank" class="clink glow-card">
+            <div class="clink-ico">in</div>
+            <span class="clink-text">linkedin.com/in/fabricioribeiro-7013363ab</span>
+          </a>
+          <div class="clink" style="cursor:default;">
+            <div class="clink-ico">&#x2316;</div>
+            <span class="clink-text">Pau dos Ferros — RN, Brasil</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form class="contact-form" action="https://formspree.io/f/xykvnwee" method="POST">
+          <div class="f-group">
+            <label class="f-label">Nome</label>
+            <input type="text" name="name" class="f-input" placeholder="Seu nome" required/>
+          </div>
+          <div class="f-group">
+            <label class="f-label">E-mail</label>
+            <input type="email" name="email" class="f-input" placeholder="seu@email.com" required/>
+          </div>
+          <div class="f-group">
+            <label class="f-label">Mensagem</label>
+            <textarea name="message" class="f-area" placeholder="Olá Fabrício..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-white" style="text-align:center;display:block;width:100%;border:none;cursor:pointer;">Enviar mensagem</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────── -->
+<footer>
+  <div class="foot-l">&copy; 2026 Fabricio Ribeiro · Customer Success & AI</div>
+  <div class="foot-r">Pau dos Ferros — RN, Brasil</div>
+</footer>
+
+<!-- ── TUTORIAL OVERLAY ───────────────────────────────── -->
+<div class="tut-overlay" id="tut-overlay">
+  <button class="tut-close" id="tut-close">ESC · Fechar</button>
+  <div class="tut-spotlight" id="tut-spotlight"></div>
+  <div class="tut-tooltip" id="tut-tooltip">
+    <div class="tut-tooltip-step" id="tut-step"></div>
+    <div class="tut-tooltip-text" id="tut-text"></div>
+    <div class="tut-tooltip-nav">
+      <button class="tut-btn" id="tut-prev">Anterior</button>
+      <button class="tut-btn tut-btn-next" id="tut-next">Próximo</button>
+      <button class="tut-btn" id="tut-exit" style="margin-left:auto;border-color:#f87171;color:#f87171;">Sair do tutorial</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── SHUTDOWN OVERLAY ───────────────────────────────── -->
+<div id="shutdown-overlay" class="shutdown-overlay">
+  <div class="shutdown-msg">
+    <div class="shutdown-icon">&#x26A0;</div>
+    <div class="shutdown-text">Porque você fez isso?<br>Destruiu todo o meu trabalho.</div>
+    <div class="shutdown-hint">Pressione F5 para restaurar.</div>
+  </div>
+</div>
+
+<!-- ── SCRIPTS ─────────────────────────────────────────── -->
+<script src="js/main.js" defer></script>
+<script src="js/playground.js" defer></script>
+<script src="js/terminal.js" defer></script>
+</body>
+</html>
