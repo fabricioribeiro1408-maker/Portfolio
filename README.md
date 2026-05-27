@@ -92,8 +92,6 @@ Terminal bash funcional com comandos reais que navegam pelo site:
 | `education` | Formação acadêmica |
 | `reputation` | Reputação & Impacto |
 | `cases` | Cases & Projetos |
-| `snake` | Jogo da Cobrinha (temática CS) |
-
 | `memory` | Jogo da Memória (termos de CS) |
 | `matrix` | Efeito Matrix Rain |
 | `neural` | Rede neural animada interativa |
