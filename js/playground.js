@@ -98,7 +98,7 @@
       kpis: [
         { value: '96.5%', label: 'SLA Médio' },
         { value: '2.872', label: 'Tickets' },
-        { value: '12.7min', label: 'MTTR' }
+        { value: '9min', label: 'MTTR' }
       ]
     },
     {
