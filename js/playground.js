@@ -561,7 +561,7 @@
     if (e.key === 'Escape' && $tutOverlay.classList.contains('active')) {
       closeTutorial();
     }
-
+});
      /* ── Error modal ─────────────────────────────────────────── */
 const pgErrorBtn     = document.getElementById('pg-error-btn');
 const pgErrorOverlay = document.getElementById('pg-error-overlay');
