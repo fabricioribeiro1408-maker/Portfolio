@@ -662,6 +662,29 @@ Recomendo fortemente o trabalho do Fabrício e tenho certeza de que continuará 
           <div class="pg-dash-content" id="pg-dash-content"></div>
         </div>
 
+        <!-- ── BOTÃO ERRO PLAYGROUND ──────────────────────────────── -->
+<div style="text-align:right; margin-top:.5rem;">
+  <button class="pg-error-btn" id="pg-error-btn">⚠️ Resultado inesperado ou erro? Clique aqui</button>
+</div>
+
+<!-- ── MODAL ERRO PLAYGROUND ──────────────────────────────── -->
+<div class="pg-error-overlay" id="pg-error-overlay">
+  <div class="pg-error-modal">
+    <div class="pg-error-header">
+      <div class="pg-error-title">⚠️ Erros comuns a evitar</div>
+      <button class="pg-error-close" id="pg-error-close">✕ Fechar</button>
+    </div>
+    <ul class="pg-error-list">
+      <li><strong>Não envie dados vagos</strong> — "minha equipe foi bem esse mês" não gera dashboard, ou gera sem contexto útil.</li>
+      <li><strong>Não solicite dashboards baseados em informações da internet</strong> — o modelo não acessa a web. A DeepSeek tem conhecimento limitado até 2024 e a temperatura pode sugerir resultados diferentes do esperado. Sempre traga os dados prontos na descrição.</li>
+      <li><strong>Não ultrapasse ~500 palavras</strong> — entradas muito longas podem confundir o modelo e gerar erro de parse.</li>
+      <li><strong>Evite perguntas abertas</strong> — o playground gera dashboards, não responde perguntas dissertativas.</li>
+      <li><strong>Aguarde 60 segundos entre gerações</strong> — há um limite de 1 dashboard por minuto para garantir estabilidade. Se tentar antes disso, a geração será bloqueada automaticamente.</li>
+      <li><strong>Recebeu um erro? Aguarde 60 segundos e tente novamente</strong> — erros pontuais podem acontecer por instabilidade da API ou timeout de rede. Na maioria dos casos, tentar novamente resolve. Se persistir após 3 tentativas, simplifique a entrada.</li>
+    </ul>
+  </div>
+</div>
+
         <!-- csv import -->
         <div class="csv-zone" id="csv-zone">
           <div class="csv-zone-icon">&#x1F4C4;</div>
