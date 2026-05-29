@@ -7,8 +7,8 @@
   'use strict';
 
   /* ── Config ──────────────────────────────────────────── */
-  var API_KEY = 'sk-fb1758dc9a28453f86025f9d3b1ca6a4';
-  var API_URL = 'https://api.deepseek.com/chat/completions';
+  var API_URL = 'https://deepseek-proxy.fabricioribeiro1408.workers.dev';
+
   var RATE_LIMIT_MS = 60000;
 
   /* ── State ───────────────────────────────────────────── */
@@ -220,7 +220,6 @@
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer ' + API_KEY
       },
       body: JSON.stringify(body)
     })
