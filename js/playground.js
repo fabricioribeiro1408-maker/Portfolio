@@ -561,6 +561,33 @@
     if (e.key === 'Escape' && $tutOverlay.classList.contains('active')) {
       closeTutorial();
     }
+
+     /* ── Error modal ─────────────────────────────────────────── */
+const pgErrorBtn     = document.getElementById('pg-error-btn');
+const pgErrorOverlay = document.getElementById('pg-error-overlay');
+const pgErrorClose   = document.getElementById('pg-error-close');
+
+if (pgErrorBtn && pgErrorOverlay && pgErrorClose) {
+  pgErrorBtn.addEventListener('click', () => {
+    pgErrorOverlay.classList.add('active');
+  });
+
+  pgErrorClose.addEventListener('click', () => {
+    pgErrorOverlay.classList.remove('active');
+  });
+
+  pgErrorOverlay.addEventListener('click', (e) => {
+    if (e.target === pgErrorOverlay) {
+      pgErrorOverlay.classList.remove('active');
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      pgErrorOverlay.classList.remove('active');
+    }
+  });
+}
   });
 
   /* ── 12. Chat messages ──────────────────────────────── */
