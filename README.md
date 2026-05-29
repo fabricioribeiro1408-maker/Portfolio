@@ -4,7 +4,7 @@
 
 Portfolio profissional interativo com tema dark premium, construído com HTML, CSS e JavaScript puro — sem frameworks, sem dependências, sem complexidade desnecessária.
 
-**[Ver Portfolio →](#)** *(deploy via GitHub Pages)*
+**[Ver Portfolio →](https://fabricioribeiro1408-maker.github.io/Portfolio/)** *(deploy via GitHub Pages)*
 
 ---
 
